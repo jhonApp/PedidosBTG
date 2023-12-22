@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  pedidosbtg.messaging:
+    image: ${DOCKER_REGISTRY-}pedidosbtgmessaging
+    build:
+      context: .
+      dockerfile: PedidosBTG.Messaging/Dockerfile
+
+  pedidosbtg.webui:
+    image: ${DOCKER_REGISTRY-}pedidosbtgwebui
+    build:
+      context: .
+      dockerfile: WebUI/Dockerfile
+
+
+  pedidosbtg.data:
+    image: ${DOCKER_REGISTRY-}pedidosbtgdata
+    build:
+      context: .
+      dockerfile: PedidosBTG.Data/Dockerfile
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"

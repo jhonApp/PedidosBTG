@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosBTG.Messaging", "PedidosBTG.Messaging\PedidosBTG.Messaging.csproj", "{4998C4CF-8EC3-4A07-96B2-F5A15FBD77B6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EDDAE470-5587-425C-84C1-A02A8263EC74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosBTG.Data", "PedidosBTG.Data\PedidosBTG.Data.csproj", "{247E4032-DA61-4554-BEB4-1449DA0860AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosBTG.Core", "PedidosBTG.Core\PedidosBTG.Core.csproj", "{17567EEF-B048-4F15-928C-0B2E29F295C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosBTG.RestApi", "PedidosBTG.RestApi\PedidosBTG.RestApi.csproj", "{D4DCF635-6613-4768-A8EB-B0659A5B1803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4998C4CF-8EC3-4A07-96B2-F5A15FBD77B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4998C4CF-8EC3-4A07-96B2-F5A15FBD77B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4998C4CF-8EC3-4A07-96B2-F5A15FBD77B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4998C4CF-8EC3-4A07-96B2-F5A15FBD77B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDAE470-5587-425C-84C1-A02A8263EC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDAE470-5587-425C-84C1-A02A8263EC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDAE470-5587-425C-84C1-A02A8263EC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDAE470-5587-425C-84C1-A02A8263EC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247E4032-DA61-4554-BEB4-1449DA0860AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247E4032-DA61-4554-BEB4-1449DA0860AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247E4032-DA61-4554-BEB4-1449DA0860AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247E4032-DA61-4554-BEB4-1449DA0860AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17567EEF-B048-4F15-928C-0B2E29F295C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17567EEF-B048-4F15-928C-0B2E29F295C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17567EEF-B048-4F15-928C-0B2E29F295C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17567EEF-B048-4F15-928C-0B2E29F295C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DCF635-6613-4768-A8EB-B0659A5B1803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DCF635-6613-4768-A8EB-B0659A5B1803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DCF635-6613-4768-A8EB-B0659A5B1803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DCF635-6613-4768-A8EB-B0659A5B1803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA40C3E0-3EBD-4955-B903-B3ECC657E571}
+	EndGlobalSection
+EndGlobal
