@@ -7,18 +7,23 @@ services:
       context: .
       dockerfile: PedidosBTG.Messaging/Dockerfile
 
-  pedidosbtg.webui:
-    image: ${DOCKER_REGISTRY-}pedidosbtgwebui
+  pedidosbtg.core:
+    image: ${DOCKER_REGISTRY-}pedidosbtgcore
     build:
       context: .
-      dockerfile: WebUI/Dockerfile
-
-
+      dockerfile: PedidosBTG.Core/Dockerfile
+      
   pedidosbtg.data:
     image: ${DOCKER_REGISTRY-}pedidosbtgdata
     build:
       context: .
       dockerfile: PedidosBTG.Data/Dockerfile
+
+  pedidosbtg.restapi:
+    image: ${DOCKER_REGISTRY-}pedidosbtgrestapi
+    build:
+      context: .
+      dockerfile: PedidosBTG.RestApi/Dockerfile
 
   rabbitmq:
     image: rabbitmq:3-management
